@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8056"
-	"mapversion" "74"
+	"editorbuild" "8075"
+	"mapversion" "75"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,88 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "74"
+	"mapversion" "75"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "italy"
+	solid
+	{
+		"id" "14767"
+		side
+		{
+			"id" "3012"
+			"plane" "(-3104 -2064 120) (-3104 -2048 120) (-2880 -2048 120)"
+			"material" "BRICK/BRICK_FLOOR_02"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3011"
+			"plane" "(-3104 -2048 32) (-3104 -2064 32) (-2880 -2064 32)"
+			"material" "BRICK/BRICK_FLOOR_02"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3010"
+			"plane" "(-3104 -2064 32) (-3104 -2048 32) (-3104 -2048 120)"
+			"material" "BRICK/BRICK_FLOOR_02"
+			"uaxis" "[0 1 0 192] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3009"
+			"plane" "(-2880 -2048 32) (-2880 -2064 32) (-2880 -2064 120)"
+			"material" "BRICK/BRICK_FLOOR_02"
+			"uaxis" "[0 1 0 192] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3008"
+			"plane" "(-3104 -2048 32) (-2880 -2048 32) (-2880 -2048 120)"
+			"material" "BRICK/BRICK_FLOOR_02"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3007"
+			"plane" "(-2880 -2064 32) (-3104 -2064 32) (-3104 -2064 120)"
+			"material" "BRICK/BRICK_FLOOR_02"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 145 206"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	solid
 	{
 		"id" "14359"
@@ -12643,8 +12719,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-2780.67 -1789.82 221.995]"
-		"look" "[-4201.02 -4603.09 -737.897]"
+		"position" "[-2746.89 -2203.86 200.126]"
+		"look" "[-5367.86 -592.178 -977.266]"
 	}
 }
 cordons
