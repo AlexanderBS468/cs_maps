@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8075"
-	"mapversion" "76"
+	"mapversion" "77"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,14 +20,90 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "76"
+	"mapversion" "77"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "italy"
 	solid
-	{
+		{
+			"id" "99915175"
+			side
+			{
+				"id" "3024"
+				"plane" "(-3115.71 -1802.79 120) (-3115.71 -1786.79 120) (-2891.71 -1786.79 120)"
+				"material" "BRICK/BRICK_FLOOR_02"
+				"uaxis" "[1 0 0 46.8281] 0.25"
+				"vaxis" "[0 -1 0 340.856] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "3023"
+				"plane" "(-3115.71 -1786.79 32) (-3115.71 -1802.79 32) (-2891.71 -1802.79 32)"
+				"material" "BRICK/BRICK_FLOOR_02"
+				"uaxis" "[1 0 0 46.8281] 0.25"
+				"vaxis" "[0 -1 0 340.856] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "3022"
+				"plane" "(-3115.71 -1802.79 32) (-3115.71 -1786.79 32) (-3115.71 -1786.79 120)"
+				"material" "BRICK/BRICK_FLOOR_02"
+				"uaxis" "[0 1 0 -340.856] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "3021"
+				"plane" "(-2891.71 -1786.79 32) (-2891.71 -1802.79 32) (-2891.71 -1802.79 120)"
+				"material" "BRICK/BRICK_FLOOR_02"
+				"uaxis" "[0 1 0 -340.856] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "3020"
+				"plane" "(-3115.71 -1786.79 32) (-2891.71 -1786.79 32) (-2891.71 -1786.79 120)"
+				"material" "BRICK/BRICK_FLOOR_02"
+				"uaxis" "[1 0 0 46.8281] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "3019"
+				"plane" "(-2891.71 -1802.79 32) (-3115.71 -1802.79 32) (-3115.71 -1802.79 120)"
+				"material" "BRICK/BRICK_FLOOR_02"
+				"uaxis" "[1 0 0 46.8281] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			editor
+			{
+				"color" "0 145 206"
+				"visgroupshown" "1"
+				"visgroupautoshown" "1"
+			}
+		}
+		solid
+		{
 		"id" "15175"
 		side
 		{
@@ -12795,8 +12871,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-2811.61 -2419.94 195.776]"
-		"look" "[-4281.94 343.999 -829.907]"
+		"position" "[-2744.49 -2258.33 180.952]"
+		"look" "[-4177.17 626.233 -511.867]"
 	}
 }
 cordons
